@@ -1,0 +1,31 @@
+.sentence {
+  padding: 80px 0 96px;
+  align-items: center;
+}
+
+.cabin {
+  display: flex;
+}
+
+.sentence__title {
+  align-self: flex-start;
+  padding-top: 113px;
+}
+
+.sentence__descriptions {
+  align-self: flex-end;
+  padding: 24px 126px 0 0;
+}
+
+.food {
+  display: flex;
+}
+
+.sentence__food {
+  margin: 145px 0 0 126px;
+  max-width: 584px;
+}
+
+.sentence__descriptions-part2 {
+  padding-top: 24px;
+}

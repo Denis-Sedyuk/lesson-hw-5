@@ -1,0 +1,77 @@
+.booking__content {
+  display: flex;
+  padding-top: 80px;
+}
+
+.booking__left {
+  margin-top: 82px;
+}
+
+.booking__descriptions-left {
+  margin-bottom: 12px;
+  color: #424f7b;
+}
+
+.booking__title-left {
+  margin-bottom: 24px;
+}
+
+.booking__descriptions-left-part2 {
+  margin: 0 138px 32px 0;
+}
+
+.booking__right {
+  margin-left: 110px;
+  position: relative;
+}
+
+.booking__title-right-part1 {
+  margin-bottom: 94px;
+  border-radius: 4px;
+}
+
+.booking__title-right-part2 {
+  margin-bottom: 24px;
+}
+
+.booking__title-right-part3 {
+  margin-bottom: 112px;
+}
+
+.booking__title-right-part1::after {
+  content: url(../images/Arrow_1.svg);
+  background-image: url(../images/eclipse_yellow.svg);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  text-align: center;
+  margin-left: 167px;
+}
+.booking__title-right-part2::after {
+  content: url(../images/Arrow_2.svg);
+  background-image: url(../images/eclipse_red.svg);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  text-align: center;
+  margin-left: 129px;
+}
+.booking__title-right-part3::after {
+  content: url(../images/Arrow_1.svg);
+  background-image: url(../images/eclipse_yellow.svg);
+  cursor: pointer;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  text-align: center;
+  margin-left: 255px;
+}
+
+.booking__descriptions-right {
+  margin-bottom: 92px;
+}
