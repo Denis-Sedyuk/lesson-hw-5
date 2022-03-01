@@ -1,5 +1,9 @@
 .header {
-  padding: 37px 0 35px 0;
+  position: sticky;
+  top: 0;
+  background: white;
+  width: 100%;
+  padding: 37px 0 15px 0;
   font-size: 16px;
 }
 
@@ -24,4 +28,5 @@
 .header__nav-item {
   list-style: none;
   padding: 0 16px;
+  cursor: pointer;
 }

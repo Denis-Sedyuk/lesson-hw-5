@@ -1,0 +1,33 @@
+.reviews__content {
+  padding: 80px 0 116px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.reviews__title {
+  margin-bottom: 62px;
+}
+
+.reviews__image {
+  margin-bottom: 44px;
+  max-width: 120px;
+}
+
+.reviews__descriptions {
+  margin-bottom: 40px;
+  max-width: 793px;
+  text-align: center;
+}
+
+.reviews__name::after {
+  content: url(../images/down-eclipse.svg);
+  display: block;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 12px;
+  position: absolute;
+  margin: 24px 0 0 50px;
+}
